@@ -1,0 +1,19 @@
+Open Command Prompt
+"RUN AS ADMINISTRATOR"
+
+Open terminal:
+> sudo gnome-terminal
+
+> netsh wlan show drivers
+
+hosted network supported = yes
+
+> netsh wlan set hostednetwork mode=allow ssid=CSBHotspot key=passwordasdf
+
+All should be done successfully
+
+> netsh wlan start hostednetwork
+
+Click on internet icon > Open network and sharing center > change adapter setting > Right click on internet > Properties > Sharing > Tick check box
+
+> netsh wlan stop hostednetwork
